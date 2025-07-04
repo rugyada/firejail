@@ -17,7 +17,7 @@ applications such as Mozilla Firefox.
 
 %prep
 %autosetup -p1
-autoreconf -fi
+%configure
 
 %build
 %make_build
